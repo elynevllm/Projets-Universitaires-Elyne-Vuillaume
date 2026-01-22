@@ -97,7 +97,7 @@ export const PROJECTS = [
     "AC15.07 — Produire un message écrit ou oral professionnel",
     "AC13.02 — Produire des pistes graphiques et des planches d’inspiration",
     "AC13.03 — Créer, composer et retoucher des visuels",
-    "AC13.06 — Optimiser les médias en fonction de leurs usages et supports de diffusion"
+    "AC13.06 — Optimiser les médias en fonction de leurs usages et supports de diffusion",
     "AC11.05 - Identifier les cibles",
   ]
 },
@@ -372,10 +372,6 @@ export const PROJECTS = [
     "AC35.03 — Concevoir un projet d’entreprise innovante"
   ]
 },
-
-
-      
-  
 
   {
     "id": "mmi3-prosa",
