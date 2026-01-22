@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Elyne Vuillaume — Projet</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">
+        <a class="small-link" id="backLink" href="index.html">← Retour</a>
+        <div class="brand__tag">Détail du projet</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="proj-hero">
+      <div class="hero-img" id="heroImg"></div>
+
+      <div class="paper-block" id="projectLinkBlock" style="display:none;">
+        <h3>Lien du projet</h3>
+        <a class="btn btn--paper" id="projectLink" href="#" target="_blank" rel="noopener noreferrer">
+          Voir le site
+        </a>
+      </div>
+      
+
+      <div class="hero-side">
+        <div class="paper-block">
+          <div class="pcard__meta" style="margin-bottom:10px;">
+            <span class="pill" id="year"></span>
+            <span class="pill" id="category"></span>
+          </div>
+          <h2 class="h2" id="title">Titre</h2>
+          <p style="margin:10px 0 0; color: rgba(31,26,24,.78); line-height:1.7;" id="subtitle"></p>
+        </div>
+
+        <div class="paper-block">
+          <h3>Description</h3>
+          <p id="desc"></p>
+        </div>
+
+        <div class="paper-block">
+          <h3>Cadre du projet</h3>
+          <p id="context"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="paper-block">
+      <div class="back-row">
+        <h3 style="margin:0;">AC acquis</h3>
+        <a class="small-link" href="#top" onclick="window.scrollTo({top:0,behavior:'smooth'}); return false;">Haut ↑</a>
+      </div>
+      <div class="ac-list" id="ac"></div>
+    </section>
+
+    <footer class="footer">
+      <div>
+        <a class="small-link" href="index.html">← Retour à la liste</a>
+      </div>
+    </footer>
+  </main>
+
+  <script type="module" src="js/project.js"></script>
+</body>
+</html>

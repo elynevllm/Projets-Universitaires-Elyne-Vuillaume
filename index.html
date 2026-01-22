@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Elyne Vuillaume — Projets universitaires</title>
+
+  <!-- Fonts (proches du rendu du PDF : serif élégante + sans pour le texte) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">
+        <h1 class="brand__title">Projets</h1>
+        <div class="brand__tag">MMI — Universitaire</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      
+      <div class="hero__grid">
+        <div class="card">
+          <div class="panel__pad">
+            <h2 class="h1">Mes projets<br/>universitaires</h2>
+            <p class="lead">
+              Sélectionnez une catégorie pour afficher les projets. Cliquez sur un projet afin d’accéder à une page dédiée présentant les visuels, la description, le cadre du projet ainsi que les compétences (AC) acquises.
+            </p>
+
+            <div class="filters" id="filters" aria-label="Filtrer par catégorie"></div>
+
+            <div class="section-title" style="margin-top:18px;">
+              <div class="kbd"><span id="currentCat">Tous les projets</span></div>
+              <div class="kbd"><span id="count">0</span> projets</div>
+            </div>
+          </div>
+        </div>
+
+        
+      
+    </section>
+
+    
+    <section class="projects">
+      <div class="project-cards" id="projectCards" aria-label="Liste des projets"></div>
+    </section>
+
+    <section class="evolution">
+      <div class="card">
+        <div class="panel__pad">
+          <h2 class="h2">Mon évolution au fil du BUT MMI</h2>
+    
+          <div class="evolution-step">
+            <h3>MMI 1 — Découverte et apprentissage</h3>
+            <p>
+              Arrivée en MMI sans réelles bases, cette première année a été marquée par la découverte
+              des outils, des méthodes et des contraintes du graphisme et du web. Cette phase m’a
+              permis de comprendre les fondamentaux et de poser les bases de mon évolution.
+            </p>
+          </div>
+    
+          <div class="evolution-step">
+            <h3>MMI 2 — Progression et affirmation graphique</h3>
+            <p>
+              En deuxième année, j’ai développé davantage mes compétences à travers des projets plus
+              structurés et une réflexion visuelle plus aboutie, gagnant en assurance et en cohérence
+              dans mes productions.
+            </p>
+          </div>
+    
+          <div class="evolution-step">
+            <h3>MMI 3 — Professionnalisation et polyvalence</h3>
+            <p>
+              Grâce à l’alternance, j’ai consolidé mes compétences en graphisme et en développement web,
+              tout en développant une approche plus stratégique, organisée et orientée vers des
+              contraintes professionnelles réelles.
+            </p>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    
+      
+  <section style="text-align:center; margin: 80px 0 40px;">
+    <a href="https://elynevuillaume.com" target="_blank" rel="noopener noreferrer"
+       class="btn btn--paper">
+      Cliquez ici pour retourner au portfolio
+    </a>
+    
+  </section>
+    <footer class="footer">
+      <div>
+        © <span id="yearNow"></span> — Elyne Vuillaume · Projets MMI
+      </div>
+    </footer>
+  </main>
+
+  
+  
+  <script type="module">
+    import "./js/main.js";
+    document.getElementById("yearNow").textContent = new Date().getFullYear();
+  </script>
+</body>
+
+
+
+</html>
