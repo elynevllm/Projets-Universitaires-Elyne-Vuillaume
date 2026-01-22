@@ -88,8 +88,8 @@ export const PROJECTS = [
   "subtitle": "Stratégie de communication pour le festival Alta Leghje (Alta Rocca)",
   "year": "MMI 1",
   "category": "communication",
-  "thumb": "assets/img/alta-leghje.png",
-  "hero": "assets/img/alta-leghje.png",
+  "thumb": "assets/img/altaleghje.png",
+  "hero": "assets/img/altaleghje2.png",
   "description": "Dans le cadre d’un projet de première année, nous avons conçu une stratégie de communication pour le festival Alta Leghje, organisé en Alta Rocca près d’Ajaccio (AC15.06). Une analyse de l’existant a été menée afin d’identifier les forces, les faiblesses et les axes d’amélioration de la communication du festival (AC15.07). J’ai participé à la définition des messages clés et à leur adaptation aux différents publics et supports de diffusion (AC13.06). Des pistes graphiques et des planches d’inspiration ont été réalisées afin de poser l’univers visuel du festival (AC13.02). Enfin, j’ai conçu une affiche de communication en travaillant la composition, la typographie et l’équilibre visuel (AC13.03).",
   "context": "Projet universitaire (MMI 1). Analyse de l’existant, stratégie de communication, création graphique et travail collaboratif autour d’un événement culturel.",
   "ac": [
@@ -208,8 +208,8 @@ export const PROJECTS = [
   "subtitle": "Birbone — Site e-commerce de t-shirts",
   "year": "MMI 2",
   "category": "devweb",
-  "thumb": "assets/img/birbone.png",
-  "hero": "assets/img/birbone.png",
+  "thumb": "assets/img/birborne.png",
+  "hero": "assets/img/birborne.png",
   "description": "Dans le cadre d’un projet de développement web, j’ai conçu et développé un site e-commerce dédié à la vente de t-shirts sous le nom de Birbone (AC24.01). J’ai mis en place un système de back office permettant la gestion des produits, des contenus et des informations affichées sur le site (AC24.02). Des interactions riches ont été développées afin d’améliorer l’expérience utilisateur, notamment à travers des comportements dynamiques et des fonctionnalités interactives en JavaScript (AC24.03). J’ai modélisé les traitements de l’application web, en structurant la logique de fonctionnement du site, de l’affichage des produits jusqu’au parcours utilisateur (AC24.04). Enfin, le site a été hébergé et déployé en ligne en tenant compte des contraintes techniques liées à l’environnement de production (AC24.06).",
   "context": "Projet universitaire (MMI 2). Développement d’un site e-commerce : front-end, interactions, logique applicative, back office et hébergement.",
   "ac": [
@@ -363,8 +363,8 @@ export const PROJECTS = [
   "subtitle": "Conception d’un objet innovant et stratégie d’entreprise",
   "year": "MMI 3",
   "category": "communication",
-  "thumb": "assets/img/entrepreneuriat.png",
-  "hero": "assets/img/entrepreneuriat.png",
+  "thumb": "assets/img/lysen.png",
+  "hero": "assets/img/lysen.png",
   "description": "Dans le cadre d’un projet d’entrepreneuriat présenté devant un jury, nous avons imaginé un objet innovant qui n’existait pas encore, en définissant son concept, son positionnement et son identité globale (AC35.03). Une réflexion approfondie a été menée sur la forme juridique de l’entreprise, les cibles, ainsi que la proposition de valeur du produit (AC35.03). Le projet a intégré un chiffrage détaillé comprenant les coûts de production, les charges, le modèle économique et les prévisions de chiffre d’affaires afin d’évaluer la viabilité du concept (AC35.03). Enfin, une attention particulière a été portée à la cohérence globale du projet, à la fiabilité des hypothèses et à la qualité de la présentation finale lors de la soutenance devant le jury (AC35.02).",
   "context": "Projet universitaire (MMI 3). Conception d’un projet d’entreprise innovante : idéation, stratégie, modèle économique, chiffrage financier et soutenance orale.",
   "ac": [
